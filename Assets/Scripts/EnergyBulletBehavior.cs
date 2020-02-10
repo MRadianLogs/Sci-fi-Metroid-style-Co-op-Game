@@ -22,17 +22,9 @@ public class EnergyBulletBehavior : MonoBehaviour
         StartCoroutine(DecreaseLifeTime());
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    private void OnTriggerEnter(Collider other)
     {
-        //Fly in direction that was shot. If bullet range was reached, deactivate.
-        //bulletRigidBody.AddForce(transform.forward * bulletSpeed * Time.deltaTime);
-    }
-
-    private void OnCollisionEnter(Collision col)
-    {
-
-        //gameObject.SetActive(false);
+        //Debug.Log("Hit something!");
         Destroy(gameObject);
     }
 

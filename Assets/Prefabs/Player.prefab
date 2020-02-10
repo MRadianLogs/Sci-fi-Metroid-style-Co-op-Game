@@ -461,6 +461,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5094704075146797253}
     m_Modifications:
+    - target: {fileID: 1033560975268753776, guid: 15871de0d70437149a9814f9889080b4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50cb6908a985728488e980832e70d2cc, type: 2}
+    - target: {fileID: 1818461980135993798, guid: 15871de0d70437149a9814f9889080b4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0281afb3f07e171458a4f5fae49b35ab, type: 2}
     - target: {fileID: 2699386453072343611, guid: 15871de0d70437149a9814f9889080b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -531,11 +541,31 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2764854866615530715, guid: 15871de0d70437149a9814f9889080b4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 50cb6908a985728488e980832e70d2cc, type: 2}
     - target: {fileID: 4575831904699437100, guid: 15871de0d70437149a9814f9889080b4,
         type: 3}
       propertyPath: m_Name
       value: Arm Cannon
       objectReference: {fileID: 0}
+    - target: {fileID: 5464511163877572455, guid: 15871de0d70437149a9814f9889080b4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 89d835a8655864d42aef1b9095ff1029, type: 2}
+    - target: {fileID: 6992389154815493361, guid: 15871de0d70437149a9814f9889080b4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62881453fd380784b953a4e8402a3dfe, type: 2}
+    - target: {fileID: 7269888379182577391, guid: 15871de0d70437149a9814f9889080b4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 62881453fd380784b953a4e8402a3dfe, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15871de0d70437149a9814f9889080b4, type: 3}
 --- !u!4 &4093415863322776174 stripped
