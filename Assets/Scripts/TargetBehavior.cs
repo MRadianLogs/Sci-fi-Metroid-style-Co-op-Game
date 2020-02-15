@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TargetBehavior : MonoBehaviour
 {
+    [SerializeField] private GameManager gameManager = null;
+
     [SerializeField]
     private int pointsWorth = 10;
 
@@ -16,8 +18,9 @@ public class TargetBehavior : MonoBehaviour
         {
             //Deactivate target.
             this.gameObject.SetActive(false);
-            //Give player points.
-
+            gameManager.DecrementTargetCount();
+            //Give player points(through game manager).
+            gameManager.IncrementPlayerPoints(pointsWorth);
         }
     }
 }
